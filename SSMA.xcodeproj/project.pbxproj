@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C191502719E728E0003262A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C191502619E728E0003262A1 /* HomeViewController.swift */; };
+		C191502919E72D73003262A1 /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C191502819E72D73003262A1 /* OrderTableViewController.swift */; };
+		C19361FB19E3D97800632081 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = C19361F919E3D97800632081 /* SSKeychain.m */; };
+		C193620019E40B4500632081 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C19361FE19E40B4500632081 /* SBJSON.m */; };
+		C193620319E48CC600632081 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = C193620219E48CC600632081 /* back.png */; };
+		C193620619E48D1D00632081 /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C193620519E48D1D00632081 /* SetViewController.swift */; };
+		C193620B19E4924C00632081 /* icon_1_n.png in Resources */ = {isa = PBXBuildFile; fileRef = C193620919E4924C00632081 /* icon_1_n.png */; };
+		C193620C19E4924C00632081 /* icon_2_n.png in Resources */ = {isa = PBXBuildFile; fileRef = C193620A19E4924C00632081 /* icon_2_n.png */; };
+		C193621019E4B7DD00632081 /* SupplerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C193620F19E4B7DD00632081 /* SupplerTableViewController.swift */; };
 		C194FAB319C26D610065786E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C194FAB219C26D610065786E /* AppDelegate.swift */; };
 		C194FAB519C26D610065786E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C194FAB419C26D610065786E /* ViewController.swift */; };
 		C194FAB819C26D610065786E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C194FAB619C26D610065786E /* Main.storyboard */; };
 		C194FABA19C26D610065786E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C194FAB919C26D610065786E /* Images.xcassets */; };
 		C194FABD19C26D610065786E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C194FABB19C26D610065786E /* LaunchScreen.xib */; };
 		C194FAC919C26D610065786E /* SSMATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C194FAC819C26D610065786E /* SSMATests.swift */; };
+		C194FAD419C292F30065786E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C194FAD319C292F30065786E /* SystemConfiguration.framework */; };
+		C194FAD719C294800065786E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C194FAD619C294800065786E /* Reachability.m */; };
+		E7F6EA4E4702448C991307C7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF58D7825E544EABE0230B5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C191502619E728E0003262A1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C191502819E72D73003262A1 /* OrderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		C19361F919E3D97800632081 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		C19361FA19E3D97800632081 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		C19361FE19E40B4500632081 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		C19361FF19E40B4500632081 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		C193620219E48CC600632081 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		C193620519E48D1D00632081 /* SetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
+		C193620919E4924C00632081 /* icon_1_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_1_n.png; sourceTree = "<group>"; };
+		C193620A19E4924C00632081 /* icon_2_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_2_n.png; sourceTree = "<group>"; };
+		C193620F19E4B7DD00632081 /* SupplerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupplerTableViewController.swift; sourceTree = "<group>"; };
 		C194FAAD19C26D610065786E /* SSMA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSMA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C194FAB119C26D610065786E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C194FAB219C26D610065786E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +59,12 @@
 		C194FAC219C26D610065786E /* SSMATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSMATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C194FAC719C26D610065786E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C194FAC819C26D610065786E /* SSMATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSMATests.swift; sourceTree = "<group>"; };
+		C194FAD219C26FF00065786E /* SSMA-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSMA-Bridging-Header.h"; sourceTree = "<group>"; };
+		C194FAD319C292F30065786E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C194FAD519C294800065786E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C194FAD619C294800065786E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E1EB09EC095A4F9682270627 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		EEF58D7825E544EABE0230B5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C194FAD419C292F30065786E /* SystemConfiguration.framework in Frameworks */,
+				E7F6EA4E4702448C991307C7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +87,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37E92CBAB6454D5F9933FBCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C194FAD319C292F30065786E /* SystemConfiguration.framework */,
+				EEF58D7825E544EABE0230B5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C193620119E40B4A00632081 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				C19361FE19E40B4500632081 /* SBJSON.m */,
+				C19361FF19E40B4500632081 /* SBJSON.h */,
+				C19361F919E3D97800632081 /* SSKeychain.m */,
+				C19361FA19E3D97800632081 /* SSKeychain.h */,
+				C194FAD519C294800065786E /* Reachability.h */,
+				C194FAD619C294800065786E /* Reachability.m */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		C193620419E48CCA00632081 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				C193620919E4924C00632081 /* icon_1_n.png */,
+				C193620A19E4924C00632081 /* icon_2_n.png */,
+				C193620219E48CC600632081 /* back.png */,
+			);
+			name = icon;
+			sourceTree = "<group>";
+		};
 		C194FAA419C26D610065786E = {
 			isa = PBXGroup;
 			children = (
 				C194FAAF19C26D610065786E /* SSMA */,
 				C194FAC519C26D610065786E /* SSMATests */,
 				C194FAAE19C26D610065786E /* Products */,
+				E1EB09EC095A4F9682270627 /* Pods.xcconfig */,
+				37E92CBAB6454D5F9933FBCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +142,19 @@
 		C194FAAF19C26D610065786E /* SSMA */ = {
 			isa = PBXGroup;
 			children = (
+				C193620419E48CCA00632081 /* icon */,
+				C193620119E40B4A00632081 /* base */,
 				C194FAB219C26D610065786E /* AppDelegate.swift */,
 				C194FAB419C26D610065786E /* ViewController.swift */,
+				C191502619E728E0003262A1 /* HomeViewController.swift */,
+				C193620519E48D1D00632081 /* SetViewController.swift */,
+				C193620F19E4B7DD00632081 /* SupplerTableViewController.swift */,
+				C191502819E72D73003262A1 /* OrderTableViewController.swift */,
 				C194FAB619C26D610065786E /* Main.storyboard */,
 				C194FAB919C26D610065786E /* Images.xcassets */,
 				C194FABB19C26D610065786E /* LaunchScreen.xib */,
 				C194FAB019C26D610065786E /* Supporting Files */,
+				C194FAD219C26FF00065786E /* SSMA-Bridging-Header.h */,
 			);
 			path = SSMA;
 			sourceTree = "<group>";
@@ -119,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C194FACC19C26D610065786E /* Build configuration list for PBXNativeTarget "SSMA" */;
 			buildPhases = (
+				DFD306B573734684904DBD49 /* Check Pods Manifest.lock */,
 				C194FAA919C26D610065786E /* Sources */,
 				C194FAAA19C26D610065786E /* Frameworks */,
 				C194FAAB19C26D610065786E /* Resources */,
+				014AC91113C645BABC5A519B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,8 +266,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C193620319E48CC600632081 /* back.png in Resources */,
+				C193620B19E4924C00632081 /* icon_1_n.png in Resources */,
 				C194FAB819C26D610065786E /* Main.storyboard in Resources */,
 				C194FABD19C26D610065786E /* LaunchScreen.xib in Resources */,
+				C193620C19E4924C00632081 /* icon_2_n.png in Resources */,
 				C194FABA19C26D610065786E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,13 +284,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		014AC91113C645BABC5A519B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFD306B573734684904DBD49 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C194FAA919C26D610065786E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C194FAB519C26D610065786E /* ViewController.swift in Sources */,
+				C191502919E72D73003262A1 /* OrderTableViewController.swift in Sources */,
+				C193620619E48D1D00632081 /* SetViewController.swift in Sources */,
+				C19361FB19E3D97800632081 /* SSKeychain.m in Sources */,
+				C191502719E728E0003262A1 /* HomeViewController.swift in Sources */,
+				C193621019E4B7DD00632081 /* SupplerTableViewController.swift in Sources */,
+				C194FAD719C294800065786E /* Reachability.m in Sources */,
 				C194FAB319C26D610065786E /* AppDelegate.swift in Sources */,
+				C193620019E40B4500632081 /* SBJSON.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +377,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -302,7 +419,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -334,21 +451,25 @@
 		};
 		C194FACD19C26D610065786E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1EB09EC095A4F9682270627 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SSMA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SSMA/SSMA-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		C194FACE19C26D610065786E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1EB09EC095A4F9682270627 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SSMA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SSMA/SSMA-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +526,7 @@
 				C194FACE19C26D610065786E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C194FACF19C26D610065786E /* Build configuration list for PBXNativeTarget "SSMATests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +535,7 @@
 				C194FAD119C26D610065786E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
